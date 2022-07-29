@@ -29,6 +29,10 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 1150px;
     padding-left: 20px;
@@ -46,7 +50,7 @@ body {
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
-    max-width: 500px;
+    max-width: 860px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -91,6 +95,19 @@ body {
     background-color: #000;
     border: 1px solid #fff;
     padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icon-wrapper {
+    padding: 10px 15px;
+    background-color: rgba(36, 9, 9, 0.581);
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+.icon-wrapper:hover {
+    background-color: #c0c0c03c;
 }
 
 .copy {
@@ -113,19 +130,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 140px;
+    width: 150px;
     padding: 10px;
     min-height: 80px;
     margin-left: 30px;
     background-color: #fff;
     color: #000;
-    border: 1px solid #000
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .value-name {
     font-weight: 700;
     margin-bottom: 8px;
-}
-
-.value {
 }
