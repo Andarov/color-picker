@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: 3px dashed var(--text-color);
+    outline-offset: 3px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #1b9343;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--text-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+.main-content {
+    flex-grow: 1;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.label {
+    font-size: 24px;
+    color: #f9d506;
+    margin-bottom: 10px;
+}
+
+.input-js {
+    width: 80%;
+    height: 150px;
+}
+
+.color-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.hex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    min-height: 66px;
+    font-size: 28px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+.copy {
+    font-size: 28px;
+    color: #ffd700;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.values-wrapper {
+    display: flex;
+    margin-left: -30px;
+}
+
+.value-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    padding: 10px;
+    min-height: 80px;
+    margin-left: 30px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000
+}
+
+.value-name {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.value {
+}

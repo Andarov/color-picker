@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="body">
+  
+  <main class="main-content">
+    <div class="container">
+      <div class="input-wrapper">
+        <label class="label" for="exampleColorInput">Color picker</label>
+        <input class="input-js" type="color" id="exampleColorInput" value="#1b9343" title="Choose your color">
+      </div>
+      <div class="color-wrapper">
+        <div class="hex-wrapper">
+          <div class="hex">#1b9343</div>
+          <i class="copy fa-solid fa-copy"></i>
+          <i class="copy fa-solid fa-check hidden"></i>
+        </div>
+    
+        <div class="values-wrapper">
+          <div class="value-wrapper">
+            <span class="value-name">RGB</span>
+            <span class="value rgb">27, 147, 67</span>
+          </div>
+          <div class="value-wrapper">
+            <span class="value-name">HSL</span>
+            <span class="value hsl">140°, 69%, 34%</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  
+  <script src="main.js"></script>
+</body>
+</html>
