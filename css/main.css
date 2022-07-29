@@ -43,6 +43,7 @@ body {
 
 .input-wrapper {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     width: 100%;
     max-width: 500px;
@@ -53,7 +54,8 @@ body {
 .label {
     font-size: 24px;
     color: #f9d506;
-    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #000;
 }
 
 .input-js {
@@ -93,7 +95,7 @@ body {
 
 .copy {
     font-size: 28px;
-    color: #ffd700;
+    color: #f9d506;
     cursor: pointer;
 }
 
