@@ -57,13 +57,13 @@ elInput.addEventListener("input", function () {
 
 if (elHexWrapper) {
     elHexWrapper.addEventListener("click", function (evt) {
-        if (evt.target.matches (".copy")) {
+        if (evt.target.matches (".copy-js")) {
             // change icon
             elCopy.classList.remove("fa-copy");
             elCopy.classList.add("fa-check");
 
             // Copy text
-            navigator.clipboard.writeText(evt.target.previousElementSibling.textContent);
+            navigator.clipboard.writeText(elHex.textContent);
 
         }
     })
